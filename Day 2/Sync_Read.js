@@ -1,0 +1,5 @@
+var fs = require('fs');
+var filename = 'data.txt'; //Name of the file to be read
+var content = fs.readFileSync(filename);
+console.log('Content : ' + content);
+console.log("The file was read successfully.");
